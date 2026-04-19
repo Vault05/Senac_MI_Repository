@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Clínica Kalashinikov</h1>
+    </header>
+    <nav>
+        <a href="Index.html">Home</a> &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="Galeria.html">Galeria</a> &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="Cadastro.html">Cadastro</a>
+    </nav>
+    <fieldset>
+        <form action="/agendar" method="POST">
+            <input type="hidden" name="versao_layout" value="minimalista_azul">
+            <legend>Dados Pessoais</legend>
+            <br> 
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" minlength="2" maxlength="50" autofocus> <br>
+            <br>
+            <label for="idade"></label>
+            <input id="idade" type="number" min="18" max="120" placeholder="Ex: 25"><br>
+            <br>
+            <label for="cpf">CPF:</label>
+            <input id="cpf" type="text"><br>
+            <br>
+            <label for="email">E-mail</label>
+            <input id="email" type="email" pattern="\d{3}\.d{3}\.\d{3}\-\d{2}" minlength="14" maxlength="14" title="Escreva o CPF no formato 000.000.000-00"><br>
+            <br>
+            <label for="endereço">Endereço</label>
+            <input form="endereço" type="text" placeholder="Ex: Avenida Dr. Laerte num.0000"><br>
+            <br>
+            <label for="sexo">Sexo</label>
+            <select id="sexo" name="sexo">
+                <option value="masculino">Masculino</option>
+               <option value="feminino">Feminino</option>
+                <option value="prefiro-nao-informar">Prefiro não informar</option>   oftamologista psiquiatra fonoaudiologa cirurgia
+                <option value="nao-binario">Não binário</option>
+            </select><br>
+            <br>
+            <label for="telefone">Telefone</label>
+            <input id="telefone" type="tel"><br>
+            <br>
+            <p>Lista de interesses</p><br>
+            <input id="medico geral" type="checkbox" name="interesses" value="medico geral">
+            <label for="medico geral">Médico geral</label><br>
+            <input id="pediatra" type="checkbox" name="interesses" value="pediatra">
+            <label for="pediatra">Pediatra</label><br>
+            <input id="ginecologista/obstreta" type="checkbox" name="interesses" value="ginecologista/obstreta">
+           <label for="ginecologista/obstreta">Ginecologista/Obstrera</label><br>
+            <input id="cardiologista" type="checkbox" name="interesses" value="cardiologista">
+            <label for="cardiologista">Cardiologista</label><br>
+            <input id="dermatologista" type="checkbox" name="interesses" value="dermatologista">
+            <label for="dermatologista">Dermatologista</label><br>
+            <input id="oftamologista" type="checkbox" name="interesses" value="oftamologista">
+           <label for="oftamologista">Oftalmologista</label><br>
+            <input id="psiquiatra" type="checkbox" name="interesses" value="psiquiatra">
+            <label for="psiquiatra">Psiquiatra</label><br>
+            <input id="fonoaudiologa" type="checkbox" name="interesses" value="fonoaudiologa">
+            <label for="fonoaudiologa">Fonoaudióloga</label><br>
+            <input id="cirurgia" type="checkbox" name="interesses" value="cirurgia">
+            <label for="cirurgia">Cirurgiã</label><br>
+            <br>
+            <label for="exame">Anexar exame (PDF ou JPG):</label>
+           <input id="exame" type="file" name="exame_arquivo" accept=".pdf, .jpg, .jpeg, .pdf"><br>
+            <br>
+            <label for="obs">Observações Médicas:</label><br>
+            <textarea id="obs" name="observacoes" rows="5" placeholder="Descreva brevemente o motivo da consulta..."></textarea><br>
+            <br>
+            <button type="submit">Finalizar Agendamento</button>
+            </form>
+    </fieldset>
+    <footer>
+        <hr>
+        <p>Diretor Técnico Médico: Dr. Caim Samael— CRM-XX 000000</p>
+        <address>Número: (34)xxxxx-xxxx</address>
+        <address>Endereço: João Naves de Ávila, Santa Mônica, Uberlândia</address>
+    </footer>
+</body>
+</html>
