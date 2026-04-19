@@ -1,0 +1,155 @@
+.header1 {
+    width: 100%;
+    background-color: #dbdbdb;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo1 {
+    color: #616161;
+}
+
+.body1 {
+    background-color: #dbdbdb;
+}
+
+.nav1 {
+    display: flex;
+    background-color: #616161;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    border-top: 8px solid #616161;
+    border-bottom: 8px solid #616161;
+}
+
+.nav1 a {
+    color: #dbdbdb;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.main1 {
+    width: 70%;
+}
+
+.main1, .main2, .main3 {
+    margin: auto;
+    background-color: white;
+    color: #616161;
+    justify-self: center;
+    border: 10px solid white;
+    border-right: 20px solid white;
+    border-left: 20px solid white;
+}
+
+.footer1 p, .footer2 p {
+    justify-self: center;
+    font-size: 10;
+}
+
+.header2 {
+    width: 70%;
+    background-color: #616161;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    border-top: #dbdbdb;
+    border-bottom: #dbdbdb;
+    border-radius: 10px;
+}
+
+.titulo2 {
+    color: #dbdbdb;
+}
+
+.body2 {
+    background-color: #dbdbdb;
+}
+
+.nav2 {
+    display: flex; 
+    background-color: #616161;
+    justify-self: center;
+    width: 70%;
+    border-bottom: 8px;
+    border-top: 8px;
+    justify-content: center;
+    gap: 20px;
+    border-top: 8px solid #616161;
+    border-bottom: 8px solid #616161;
+    border-radius: 10px;
+}
+
+.nav2 a {
+    color: #dbdbdb;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.main2 {
+    width: 68%;
+    border-radius: 10px;
+}
+
+.div2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 10%;
+    width: 100%;
+}
+
+.foto {
+    width: calc(20% - 20px);
+    aspect-ratio: 1 / 1;
+    object-fit: cover; 
+    border-radius: 10px;
+    border: 5px solid white; 
+    box-shadow: 5px 5px black;
+    margin: 0;
+}
+
+.footer2 {
+    justify-self: center;
+    width: 70%;
+    background-color: #616161;
+    text-align: center;
+    color: #dbdbdb;
+    border-radius: 10px;
+}
+
+.body3 {
+    background-color: #dbdbdb;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main3 {
+    max-width: 300px;
+    margin: 0;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.main3 .diferentao {
+    color: black;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.main3 .diferentao .p{
+    margin-bottom: 3px;
+}
+
+.main3 img{ 
+    color: black;
+    height: 35px;
+    width: 35px;
+}
