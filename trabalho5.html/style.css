@@ -1,0 +1,206 @@
+.body1, .body2 {
+    background-color:gainsboro;
+}
+
+.header1, .header2 {
+    justify-self: center;
+    justify-content: center;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    background-color: gray;
+    color: gainsboro;
+}
+
+.header1 h1, .header1 p, .header2 h1, .header2 p {
+    justify-self: center;
+    margin: 0; /*resolveu o problema da distância entre o h1 e p*/
+}
+
+.nav1, .nav2 {
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8;
+    gap: 15px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 8px;
+    background-color: gray;
+    color: gainsboro;
+}
+
+.nav1 a, .nav2 a {
+    text-decoration: none;
+    color: gainsboro;
+}
+
+.main1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cardI {
+    background-color: rgb(127, 155, 180);
+    padding: 20px;
+    width: 300px; 
+    object-fit: cover;
+    border-radius: 8px;
+    color: black;
+    font-size: 1.0;
+    text-align: center;
+}
+
+.cardI img {
+    border-radius: 8px;
+}
+
+.subcardI {
+    justify-self: center;
+    background-color: gainsboro;
+    padding: 5px;
+    width: 250px;
+    border-radius: 8px;
+}
+
+.cardI a {
+    background-color: black;
+    padding: 5px;
+    border-radius: 8px;
+    color: gainsboro;
+    text-decoration: none;
+}
+
+.cardII {
+    display: flex;
+    justify-self: center;
+    padding: 20px;
+    width: 55%;
+    object-fit: cover;
+    border-radius: 8px;
+    font-size: 1.0;
+    text-align: center;
+}
+
+.cardII img {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 8px;
+}
+
+.cardII a {   
+    justify-self: unset;
+    flex-direction: row;
+    color: rgb(187, 47, 47);
+    text-decoration: none;
+}
+
+.cardII p{
+    margin-left: 15px;
+}
+
+.subcardII2 h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10.0;
+}
+
+.minidivII1 {
+    justify-self: center;
+    width: 55%;
+}
+
+.buttonII {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    background-color: rgb(187, 47, 47);
+    color: whitesmoke;
+    padding: 5px;
+    width: 100px;
+    height: 50;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.body3 {
+    background-color:rgb(32, 32, 32);
+}
+
+.header3 {
+    justify-self: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(64, 64, 64);
+    color: whitesmoke;
+}
+
+.header3 h1, .header3 p {
+    justify-self: center;
+    margin: 0; /*resolveu o problema da distância entre o h1 e p*/
+}
+
+.nav3 {
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8;
+    gap: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: gray;
+    color: whitesmoke;
+}
+
+.nav3 a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.main3 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cardIII {
+    background-color: whitesmoke;
+    padding: 20px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    color: black;
+    font-size: 1.0;
+    text-align: left;
+}
+
+.cardIII img {
+    border-radius: 8px;
+
+}
+
+.subcardIII {
+    justify-self: center;
+    background-color: rgb(64, 64, 64);
+    width: 70px;
+    border-radius: 6px;
+}
+
+.subcardIII a {
+    padding: 4px;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer {
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(64, 64, 64);
+    color: whitesmoke;
+}
