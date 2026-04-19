@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do Participante</title>
+</head>
+<body>
+    <h2>Página 1</h2>
+    <h1>Cadastro do Participante</h1>
+    <nav>
+        <a href="#infob">Informações Básica</a> | <a href="#pref">Preferência</a> | <a href="#obs">Observações</a><br>
+    </nav><hr>    
+    <fieldset>
+        <legend id="infob">Informações Básicas</legend>
+        <form>     
+            <label for="nome">Nome Completo:</label><br>
+            <input id="nome" type="text" autofocus><br>
+            <br>
+            <label for="email">E-mail:</label><br>
+            <input id="email" type="email"><br>
+            <br>  
+            <label for="cpf">CPF:</label><br>
+            <input id="cpf" type="text" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" minlength="14" maxlength="14"><br>
+            <br>
+        </form>       
+    </fieldset>
+    <fieldset>
+        <legend id="pref">Preferência</legend>
+        <form>
+            <p>Escolha sua área de interesse:</p>
+            <input type="radio" id="IA" name="area" value="IA">
+            <label for="IA">Inteligência Artificial</label><br>
+            <input type="radio" id="dev" name="area" value="dev">
+            <label for="dev">Desenvolvimento Web</label><br>
+            <input type="radio" id="games" name="area" value="games">
+            <label for="games">Games</label><br>
+            <br>
+            <p>Selecione os tópicos adicionais desejados:</p>
+            <input type="checkbox" id="ML" name="topico" value="ML">
+            <label for="ML"> Machine Learning</label><br>
+            <input type="checkbox" id="cloud" name="topico" value="cloud">
+            <label for="cloud">Cloud</label><br>
+            <input type="checkbox" id="IoT" name="topico" value="IoT">
+            <label for="IoT">IoT</label>
+        </form>
+        
+    </fieldset>
+    <fieldset>
+        <legend id="obs">Observações</legend><br>
+        <form>
+            <label for="obsr"></label>
+            <textarea id="obsr" name="observacoes" rows="5" cols="50"></textarea>
+        </form>
+    </fieldset>
+    <br>
+    <input type="submit" value="Enviar">
+    <hr>
+    <div align="center">
+        <a href="index2.html">2</a>
+    </div>
+    <p>&copy; - Evento Acadêmico</p>
+</body>
+</html>
