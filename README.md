@@ -1,0 +1,1 @@
+Repositório gerido especificamente para armazenar, preservar e organizar (quase) todas as tarefas/trabalhos passados durante o Módulo I o curso de Programador Web no Senac, iniciado no dia 16/03/2026 e finalizado até o dia xx/07/2026, executado pelo professor Raphael Azambuja Silva Macedo do aluno Bruno Alves Santos
