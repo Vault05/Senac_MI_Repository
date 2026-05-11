@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(to bottom right, royalblue, whitesmoke);
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+h2 {
+    color: black;
+    text-shadow: 2px 2px 5px blueviolet;
+}
+
+.box1, .box2 {
+    flex-direction: column;
+}
+
+.fex1, .fex2, .fex3, .fex4, .fex5, .fex6, .fex7 {
+    margin-bottom: 10px;
+}
+
+.fex1 p, .fex2 p , .fex3 p, .fex4 p, .textin,  .fex7 p {
+    font-size: medium;
+    height: 25px;
+    border: solid 1px;
+    width: 224px;
+    background: rgb(129, 183, 255);
+    text-align: center;
+    align-items: center;
+}
+
+.preso {
+    margin-top: 10px;
+    font-size: medium;
+    border: solid 1px;
+    width: 224px;
+    height: 20px;
+    background: rgb(129, 183, 255);
+    text-align: center;
+    align-items: center;
+}
+
+.fex6 p {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: medium;
+}
+
+.btn {
+    border-radius: 5px;
+    width: fit-content;
+    color: black;
+    background: linear-gradient(to right, whitesmoke, rgb(181, 132, 238));
+    border: solid black 1px;
+    font-size: medium;
+    height: 25px;
+    box-shadow: slateblue -5px 0px 10px 1px inset;
+
+}
+
+.mex1, .mex2, .mex3, .mex4, .mex5, .mex6, .mex7 {
+    margin-bottom: 10px;
+}
+
+.mex1 p, .mex2 p , .mex3 p, .mex4 p, .mex5 p, .mex7 p {
+    font-size: medium;
+    height: 25px;
+    border: solid 1px;
+    width: 224px;
+    background: rgb(129, 183, 255);
+    text-align: center;
+    align-items: center;
+} 
+
+.subput {
+    font-size: medium;
+    background: linear-gradient(to right, black, rgb(10, 126, 221));
+    box-shadow: rgb(101, 181, 255) -5px 0px 10px 1px inset;
+    color: white;
+}
+
+.subputnum {
+    width: 104px;
+    background: linear-gradient(to left, rgb(255, 17, 17), white);
+    box-shadow: rgb(255, 101, 101) -5px 0px 10px 1px inset;
+}
+
+.subput, .subputnum {
+    border-radius: 5px;
+    border: solid black 1px;
+    height: 25px;
+    margin-bottom: 10px;
+}
