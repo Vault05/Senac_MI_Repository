@@ -8,11 +8,17 @@ function cadastro() {
 
     if (!inputPreco ||  !inputProduto || inputProduto === "") {
         demo.textContent = "Inválido: preencha todos os campos!";
+        setTimeout(function() {
+        demo.textContent = ""; 
+        }, 2000);
         return;
     }
     
     if (inputPreco <= 0) {
         demo.textContent = "Inválido: preço deve ser maior que 0!";
+        setTimeout(function() {
+        demo.textContent = ""; 
+        }, 2000);
         return;
     }
     precos.push(inputPreco);
