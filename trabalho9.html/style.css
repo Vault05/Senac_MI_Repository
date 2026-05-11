@@ -1,0 +1,12 @@
+body {
+    display: flex;
+}
+
+.fex1, .fex2, .fex3, .fex4, .fex5, .fex6, .fex7 {
+    padding: 10px;
+}
+
+.pequeno, .tochange {
+    font-size: xx-small;
+    font-weight: lighter;
+}
