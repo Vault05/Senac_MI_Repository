@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa IV JS - Index</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="tudoprr">
+        <div class="cabecario">
+            <header>
+                <h1>Tarefa IV de JS</h1>
+                <h4>Trabalho N° 11 | Senac desenvolvedor Web</h4>
+            </header>
+            <nav>
+            </nav>
+        </div>
+        <div class="resto">
+            <main>
+                <div class="slaporra">
+                    <h3>Sistema de Cadastro de Produtos</h3>
+                    <div class="right">
+                        <label for="name">Nome do produto</label>
+                        <input type="text" id="produto" autofocus>
+                    </div>
+                    <div class="right">
+                        <label for="nota">Preço</label>
+                        <input type="number" id="preco">
+                    </div>
+                    <div class="sacanagem">
+                        <button onclick="cadastro()" class="button1">Cadastrar produto</button>
+                    </div>
+                    <p id="demo" class="demo"></p>
+                </div>
+                <div class="list">
+                    <h2>Lista de produtos</h2>
+                    <ul id="lista" class="lista"></ul>
+                    <p id="quant" class="qntd"></p>
+                    <p id="display" class="qntd"></p>
+                    <p id="caro" class="qntd"></p>
+                    <p id="barato" class="qntd"></p>
+                    <button id="close" onclick="exclude()" class="button2">Excluir</button>
+                </div>
+            </main>
+            <footer>
+        
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

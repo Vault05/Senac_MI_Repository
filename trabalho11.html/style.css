@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background: linear-gradient(to right, midnightblue, rgb(220, 238, 255));
+}
+
+.tudoprr {
+    display: flex;
+    
+}
+
+.cabecario {
+    display: flex;
+    justify-self: flex-start;
+    flex-direction: column;
+    width: 20vw;
+    max-width: 20vw;
+    background: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.resto {
+    display: flex;
+    justify-self: flex-end;
+    font-family: cursive;
+    margin: 10;
+    padding: 20px;
+    width: 80vw;
+    max-width: 80vw;;
+}
+
+main {
+    display: flex;
+    gap: 30px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: solid black 2px;
+    border-radius: 8px;
+    background: linear-gradient(to bottom right, midnightblue);
+    color: whitesmoke;
+}
+
+.button1 {
+    padding: 3px;
+    align-self: center;
+    margin-top: 10px;
+    font-size: large;
+    border-radius: 10px;
+    background-color: dimgray;
+    color: gainsboro;
+}
+
+.sacanagem {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    width: 30vw;
+    max-width: 30vw;
+}
+
+.button2 {
+    display: none;
+    padding: 3px;
+    align-self: center;
+    margin-top: 10px;
+    font-size: large;
+    border-radius: 10px;
+    background-color: crimson;
+    color: black;
+    text-shadow: 2px 2px orangered ;
+}
+
+.sucesso {
+    color: rgb(61, 231, 84);
+    font-size: large;
+    text-shadow: 2px 2px black ;
+}
+
+.erro {
+    color: rgb(231, 61, 61);
+    font-size: large;
+    text-shadow: 2px 2px black ;
+}
+
+.lista {
+
+    border-left: 5px solid tomato;
+}
