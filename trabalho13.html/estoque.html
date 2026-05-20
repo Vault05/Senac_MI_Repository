@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de estoque - Trabalho 13 - Tarefa JS VI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cabecario">
+        <header>
+            <h1>Tarefa JS VI</h1>
+        </header>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="estoque.html">Estoque</a>
+            <a href="caixa.html">Caixa</a>
+            <a href="senha.html">Senha</a>
+            <a href="notas.html">Notas</a>
+            <a href="conferencia.html">Conferência</a>
+        </nav>
+    </div>
+    <main>
+        <div class="estoque">
+            <input type="text" id="inputNomeEstoque" placeholder="Nome do produto">
+            <input type="number" id="inputQtdEstoque" placeholder="Quantidade">
+            <p id="demoEstoque"></p>
+            <button onclick="cadastroEstoque()">Cadastrar produto</button>
+            <button onclick="mostrarEstoque()">Mostrar produtos cadastrados</button>
+        </div>
+        <div class="list">
+            <ul id="lista"></ul>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

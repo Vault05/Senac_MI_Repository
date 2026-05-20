@@ -1,0 +1,64 @@
+* {
+    color: gainsboro;
+}
+
+body {
+    border: 0;
+    margin: 0;
+    background: rgb(32, 32, 32);
+}
+
+.cabecario {
+    background-color: black;
+    padding: 10px;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    color: gainsboro;    
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 10px;
+    color: aquamarine;
+    background-color: black;
+    border: 5px 5px aquamarine;
+}
+
+input:hover, a:hover {
+    cursor: pointer;
+}
+
+.estoque, .notas, .caixa {
+    padding: 20px;
+    border-radius: 10px;
+    border-color: aqua;
+    box-shadow: -1px -1px 35px 1px aqua;
+}
+
+button {
+    border-radius: 10px;
+    padding: 5px;
+    background: aqua;
+    color: black;
+}

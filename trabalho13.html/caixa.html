@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de caixas - Trabalho 13 - Tarefa JS VI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cabecario">
+        <header>
+            <h1>Tarefa JS VI</h1>
+        </header>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="estoque.html">Estoque</a>
+            <a href="caixa.html">Caixa</a>
+            <a href="senha.html">Senha</a>
+            <a href="notas.html">Notas</a>
+            <a href="conferencia.html">Conferência</a>
+        </nav>
+    </div>
+    <main>
+        <div class="caixa">
+            <p><input type="checkbox" id="caixasInfoFeijao">Feijão - R$25,00</p>
+            <p><input type="checkbox" id="caixasInfoArroz">Arroz - R$32,00</p>
+            <p><input type="checkbox" id="caixasInfoLeite">Leite - R$8,00</p>
+            <p><input type="checkbox" id="caixasInfoCafe">Café - R$30,00</p>
+            <p><input type="checkbox" id="caixasInfoCha">chá - R$15,00</p>
+            <button onclick="calcularComprasCaixa()">Calcular itens comprados</button>
+            <p id="demoCaixa"></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Relatório de notas - Trabalho 13 - Tarefa JS VI</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="cabecario">
+        <header>
+            <h1>Tarefa JS VI</h1>
+        </header>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="estoque.html">Estoque</a>
+            <a href="caixa.html">Caixa</a>
+            <a href="senha.html">Senha</a>
+            <a href="notas.html">Notas</a>
+            <a href="conferencia.html">Conferência</a>
+        </nav>
+    </div>
+        <main>
+            <div class="notas">
+                <input type="text" id="nomeNotas" placeholder="Nome do aluno">
+                <input type="number" id="valorNotas" placeholder="Nota do aluno">
+                <button onclick="cadastrarNotas()">Gerar relatório</button>
+                <p id="demoNotas"></p>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Nome do aluno</th>
+                            <th>Nota</th>
+                            <th>Veredito</th>
+                        </tr>
+                    </thead>
+                    <tbody id="listaNotas">
+                        
+                    </tbody>
+                </table>
+                <p id="demoNotasResultado"></p>
+            </div>
+            </main>
+        <script src="script.js"></script>
+    </body>
+</html>
